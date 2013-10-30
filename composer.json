@@ -1,0 +1,22 @@
+{
+    "name": "useallfive/doctrine-data-fixtures-command",
+    "description": "Doctrine DataFixtures CLI command",
+    "keywords": ["silex", "doctrine", "datafixtures", "orm", "console", "web", "pimple"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zach Brown",
+            "email": "zeebz91@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/data-fixtures": "~1.0",
+        "symfony/console": "~2.3"
+    },
+    "suggest": {
+        "dflydev/doctrine-orm-service-provider": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {"UseAllFive\\Command": "src/"}
+    }
+}
